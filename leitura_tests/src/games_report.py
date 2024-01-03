@@ -5,10 +5,18 @@ def load_games_from_json(file_path:str):
         game = json.load(file)
     return game
 
-video_game = load_games_from_json('leitura_tests/data/jogos.json')
+if __name__ == "__main__":
+    video_game = load_games_from_json('leitura_tests/data/jogos.json')
 
-for game in video_game['jogos']:
-    print(game['titulo'])
-    print(game['plataforma'])
+print(video_game['consoles'])
     
+
+def get_all_consoles(list):
+    consoles = set()
+    for console in list:
+        consoles.add(console['nome'])
+    return consoles
+
+print(get_all_consoles(video_game['consoles']))    
+
    
