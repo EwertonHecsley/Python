@@ -1,0 +1,117 @@
+{
+    "jogos": [
+        {
+            "titulo": "The Witcher 3: Wild Hunt",
+            "plataforma": [
+                "PC",
+                "PlayStation 4",
+                "Xbox One",
+                "Nintendo Switch"
+            ],
+            "ano_lancamento": 2015,
+            "genero": "RPG",
+            "desenvolvedora": "CD Projekt",
+            "avaliacao": 9.8
+        },
+        {
+            "titulo": "Grand Theft Auto V",
+            "plataforma": [
+                "PC",
+                "PlayStation 4",
+                "Xbox One",
+                "PlayStation 3",
+                "Xbox 360"
+            ],
+            "ano_lancamento": 2013,
+            "genero": "Ação e Mundo Aberto",
+            "desenvolvedora": "Rockstar Games",
+            "avaliacao": 9.5
+        },
+        {
+            "titulo": "Minecraft",
+            "plataforma": [
+                "PC",
+                "PlayStation 4",
+                "Xbox One",
+                "Nintendo Switch",
+                "iOS",
+                "Android"
+            ],
+            "ano_lancamento": 2011,
+            "genero": "Sandbox",
+            "desenvolvedora": "Mojang",
+            "avaliacao": 9.2
+        },
+        {
+            "titulo": "Overwatch",
+            "plataforma": [
+                "PC",
+                "PlayStation 4",
+                "Xbox One"
+            ],
+            "ano_lancamento": 2016,
+            "genero": "FPS",
+            "desenvolvedora": "Blizzard Entertainment",
+            "avaliacao": 8.7
+        }
+    ],
+    "consoles": [
+        {
+            "nome": "PlayStation 5",
+            "fabricante": "Sony",
+            "ano_lancamento": 2020
+        },
+        {
+            "nome": "Xbox Series X",
+            "fabricante": "Microsoft",
+            "ano_lancamento": 2020
+        },
+        {
+            "nome": "Nintendo Switch",
+            "fabricante": "Nintendo",
+            "ano_lancamento": 2017
+        },
+        {
+            "nome": "PC",
+            "fabricante": "Diversos",
+            "ano_lancamento": null
+        }
+    ],
+    "desenvolvedoras": [
+        {
+            "nome": "CD Projekt",
+            "sede": "Polônia",
+            "fundacao": 1994,
+            "jogos_conhecidos": [
+                "The Witcher 3",
+                "Cyberpunk 2077"
+            ]
+        },
+        {
+            "nome": "Rockstar Games",
+            "sede": "Estados Unidos",
+            "fundacao": 1998,
+            "jogos_conhecidos": [
+                "Grand Theft Auto V",
+                "Red Dead Redemption 2"
+            ]
+        },
+        {
+            "nome": "Mojang",
+            "sede": "Suécia",
+            "fundacao": 2009,
+            "jogos_conhecidos": [
+                "Minecraft"
+            ]
+        },
+        {
+            "nome": "Blizzard Entertainment",
+            "sede": "Estados Unidos",
+            "fundacao": 1991,
+            "jogos_conhecidos": [
+                "Overwatch",
+                "World of Warcraft"
+            ]
+        }
+    ]
+}
